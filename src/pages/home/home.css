@@ -1,0 +1,55 @@
+.searchContainer{
+    padding-top: 100px;
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 100px;
+}
+.selectFilter{
+    margin-left: 10px;
+}
+
+.cards{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.card {
+    width: 270px;
+    margin: 20px;
+    background: white;
+    padding: 15px;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.product-thumbnail {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.card .card-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.card-header-left{
+    display: flex;
+    flex-direction: column;
+}
+
+.card .card-header h3 {
+    font-weight: normal;
+}
+
+.card .card-header span {
+    font-size: 14px;
+    color: green;
+}
+.linkRouter{
+    text-decoration: none;
+}
+
+

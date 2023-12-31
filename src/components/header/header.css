@@ -1,0 +1,49 @@
+.header{
+    position: fixed;
+    height:80px;
+    box-shadow: 10px -2px 20px 2px #c5c5c580;
+    background: white;
+    z-index: 1;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.registerBtn{
+    padding: 5px 10px;
+    margin-right: 50px;
+    background: rgb(182, 39, 13);
+    font-family: "Roboto";
+    font-weight: 600;
+    color: white;
+}
+.companyTitle{
+    margin-left: 30px;
+}
+.cartLogOut{
+    display: flex;
+    align-items: center;    
+}
+.cartIcon{
+    background-color: white;
+    margin-right: 20px;
+}
+.cartDiv{
+    position: relative;
+}
+.cartCount{
+    position: absolute;
+    left: 14px;
+    top: -5px;
+    background-color: green;
+    padding: 2px 5px ;
+    border-radius: 50%;
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: aliceblue;
+}
+.registerBtn{
+    cursor: pointer;
+}

@@ -1,0 +1,94 @@
+#loginContainer {
+    display: flex;
+    padding-top: 80px;
+    height: calc(100vh - 80px);
+    width: 100vw;  
+}
+.loginContainerLeft{   
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    align-items: center;      
+}
+.loginContainerRight{
+    display: flex;
+    flex: 3; 
+}
+.rightImg{
+   width: 100%;
+   height: calc(100vh - 80px);
+   object-fit: cover;   
+}
+.loginHeading {
+    margin: 5px;
+}
+.inputGroup {
+    position: relative;
+    margin-bottom: 10px;
+}
+.inputGroup input:focus {
+    border-color: #2f5174;
+}
+#loginForm {
+    background: white;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}   
+input {
+    display: block;
+    border: 1px solid #ddd;
+    margin-top: 5px;
+    padding: 10px;
+    border-radius: 4px;
+}
+input:focus {
+    background: rgba(145, 145, 145, 0.2);
+}
+.inputEmail .icons,
+.inputPassword .icons{
+    top: 7px;
+    bottom: 7px;
+    margin: auto;
+    left: 10px;
+    position: absolute;
+    height: 20px;
+}
+.inputEmail input,
+.inputPassword input {
+    padding-left: 36px;
+}
+.primary {
+    background: black;
+    color: white;
+    padding: 10px;   
+    border-radius: 4px;
+    cursor: pointer;
+    border:none;
+}
+.buttonGroup button {
+    display: block;
+    width: 100%;
+    margin-top: 10px;
+}
+#loginBtn:disabled{
+    cursor: not-allowed;
+}
+.errorMsg{
+    position: fixed;
+    bottom: -60px;
+    left: 0;
+    right: 0;
+    height: 60px;
+    background-color: black;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color:white;
+    font-size: 20px;
+    transition: bottom 0.5s;
+}
+.errorMsg.error{
+    bottom: 0;
+}

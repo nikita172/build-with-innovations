@@ -1,0 +1,70 @@
+.wishlistWrapper{
+    padding: 125px 0px 0px 0px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center; 
+}
+.wishListProductImg{
+    
+    width: 250px ;
+    height: 300px;
+    object-fit: cover;    
+}
+.wishListProducts{    
+    margin:15px 20px 15px 20px;
+    margin-bottom:20px;
+    border: 1px solid rgb(223, 221, 221);
+    position: relative;  
+}
+.wishListProducts:hover{
+    cursor: pointer;   
+}    
+.wishListDesc{
+    font-weight: 400;
+    font-size: 18px;
+    color: gray;
+    padding:5px 0px 0px 20px;
+    display: flex;
+    flex-wrap: wrap;
+    width: 200px;
+}
+.wishListPrice{
+    padding:5px 0px 0px 20px;
+    font-size: 17px;
+    padding-bottom: 12px;
+    color: black;
+}
+.removeBtn{
+    position: absolute;
+    right: 5px;
+    top:4px;
+    background: white;
+    border-radius: 50%;
+    border: 1px solid rgb(161, 160, 160);
+    color: black;
+    font-weight: 700;
+    padding: 5px 8px;
+}
+.movetobagBtn{
+    border-top: 1px solid rgb(223, 221, 221);
+    width: max-content;
+    background: white;
+    color: #FF3366;
+    font-weight: 600;
+    font-size: 17px;
+    border-radius: 0px;
+    width: 100%;
+    padding:15px;   
+}
+.goToHomeBtn{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.goToHomeBtn button{
+  background-color: white;
+  cursor: pointer;
+  color: blue;
+  text-decoration: underline;
+}
